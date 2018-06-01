@@ -6,6 +6,5 @@ badge_maker("Arel")
 
 def batch_badge_creator(attendees)
   attendees.collect do |name|
-  puts "Hello, my name is #{badges}."
-  end
+  badge_maker(name)
 end
