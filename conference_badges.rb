@@ -18,5 +18,4 @@ def assign_rooms(attendees)
   end
 end
 
-assign_rooms
 
